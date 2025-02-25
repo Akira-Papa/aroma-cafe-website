@@ -3,212 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AROMA CAFE - 心地よい空間と極上のコーヒー</title>
+    <title>AROMA CAFE</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- ヘッダー -->
     <header>
-        <div class="container">
-            <nav>
-                <div class="logo">AROMA <span>CAFE</span></div>
-                <ul class="nav-links">
-                    <li><a href="#about">私たちについて</a></li>
-                    <li><a href="#menu">メニュー</a></li>
-                    <li><a href="#gallery">ギャラリー</a></li>
-                    <li><a href="#contact">お問い合わせ</a></li>
-                </ul>
-            </nav>
-        </div>
+        <div class="logo">AROMA CAFE</div>
+        <nav>
+            <ul>
+                <li><a href="#about">私たちについて</a></li>
+                <li><a href="#menu">メニュー</a></li>
+                <li><a href="#contact">お問い合わせ</a></li>
+            </ul>
+        </nav>
     </header>
-    
-    <!-- ヒーローセクション -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero-content">
-                <h1>心地よい空間と極上のコーヒー</h1>
-                <p>厳選された豆と丁寧な焙煎、洗練された空間でくつろぎのひとときをお過ごしください。</p>
-                <a href="#menu" class="btn">メニューを見る</a>
-            </div>
-        </div>
-    </section>
-    
-    <!-- アバウトセクション -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="section-header">
-                <h2>私たちについて</h2>
-                <p>AROMA CAFEは2015年に東京で誕生しました。厳選された豆と丁寧な焙煎にこだわり、心地よい空間でお客様をお迎えしています。</p>
-            </div>
-            <div class="about-content">
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="カフェの内装">
-                </div>
-                <div class="about-text">
-                    <h3>私たちの理念</h3>
-                    <p>私たちは、コーヒーを通じて人々に幸せな時間を提供することを目指しています。世界中から厳選した豆を使用し、一杯一杯丁寧に淹れることで、お客様に最高の味わいを提供します。</p>
-                    <p>また、店内のデザインにもこだわり、ゆったりとくつろげる空間を作り出しています。忙しい日常から離れ、ほっと一息つける場所を提供することが私たちの使命です。</p>
-                    <p>地域社会との繋がりも大切にし、地元の食材を使用したメニューの開発や、地域イベントへの参加を積極的に行っています。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- メニューセクション -->
-    <section class="menu" id="menu">
-        <div class="container">
-            <div class="section-header">
-                <h2>メニュー</h2>
-                <p>厳選された豆を使用したコーヒーと、シェフ特製のフードメニューをお楽しみください。</p>
-            </div>
+    <main>
+        <section class="hero">
+            <h1>心地よい空間と極上のコーヒー</h1>
+            <p>厳選された豆と丁寧な焙煎</p>
+        </section>
+        <section id="about">
+            <h2>私たちについて</h2>
+            <p>AROMA CAFEは心地よい空間で最高のコーヒー体験をご提供します</p>
+        </section>
+        <section id="menu">
+            <h2>メニュー</h2>
             <div class="menu-items">
                 <div class="menu-item">
-                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="スペシャルティコーヒー">
-                    <div class="menu-item-content">
-                        <h3>スペシャルティコーヒー</h3>
-                        <div class="price">¥580</div>
-                        <p>エチオピア産の厳選された豆を使用した、フルーティーな風味が特徴のコーヒーです。</p>
-                    </div>
+                    <h3>スペシャルティコーヒー</h3>
+                    <p>¥580</p>
                 </div>
                 <div class="menu-item">
-                    <img src="https://images.unsplash.com/photo-1557006019-f35b594be8b4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="カフェラテ">
-                    <div class="menu-item-content">
-                        <h3>カフェラテ</h3>
-                        <div class="price">¥650</div>
-                        <p>濃厚なエスプレッソと、滑らかな口当たりのミルクを使用した定番のカフェラテです。</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="https://images.unsplash.com/photo-1595257841889-eca2678454e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="アボカドトースト">
-                    <div class="menu-item-content">
-                        <h3>アボカドトースト</h3>
-                        <div class="price">¥980</div>
-                        <p>自家製の天然酵母パンに、新鮮なアボカドとオーガニック野菜をトッピングしました。</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="フレンチトースト">
-                    <div class="menu-item-content">
-                        <h3>フレンチトースト</h3>
-                        <div class="price">¥1,100</div>
-                        <p>厚切りのブリオッシュパンを使用した、ふわふわのフレンチトースト。季節のフルーツと一緒にお楽しみください。</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="https://images.unsplash.com/photo-1600431521340-491eca880813?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="パンケーキ">
-                    <div class="menu-item-content">
-                        <h3>パンケーキ</h3>
-                        <div class="price">¥1,200</div>
-                        <p>ふわふわの食感が特徴の自家製パンケーキ。メープルシロップと季節のフルーツが添えられています。</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="https://images.unsplash.com/photo-1573053777444-9f3b56f5b246?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="シーザーサラダ">
-                    <div class="menu-item-content">
-                        <h3>シーザーサラダ</h3>
-                        <div class="price">¥1,050</div>
-                        <p>新鮮なロメインレタスと自家製のドレッシングを使用した、クラシックなシーザーサラダです。</p>
-                    </div>
+                    <h3>カフェラテ</h3>
+                    <p>¥650</p>
                 </div>
             </div>
-        </div>
-    </section>
-    
-    <!-- ギャラリーセクション -->
-    <section class="gallery" id="gallery">
-        <div class="container">
-            <div class="section-header">
-                <h2>ギャラリー</h2>
-                <p>AROMA CAFEの雰囲気や料理の写真をご覧ください。</p>
-            </div>
-            <div class="gallery-images">
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="カフェの内装">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1493857671505-72967e2e2760?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="コーヒー">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1604881988758-f76ad2f7aac1?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="ケーキ">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1525610553991-2bede1a236e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="お客様">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1515215316771-2742baa337f4?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="コーヒー豆">
-                </div>
-                <div class="gallery-item">
-                    <img src="https://images.unsplash.com/photo-1592663527359-cf6642f54cff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="カフェ外観">
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- お問い合わせセクション -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2>お問い合わせ</h2>
-                <p>ご質問やご予約は、お電話またはメールフォームからお気軽にお問い合わせください。</p>
-            </div>
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h3>連絡先情報</h3>
-                    <p><strong>住所:</strong> 〒150-0043 東京都渋谷区道玄坂1-2-3</p>
-                    <p><strong>電話番号:</strong> 03-1234-5678</p>
-                    <p><strong>メール:</strong> info@aromacafe.jp</p>
-                    <p><strong>営業時間:</strong><br>
-                    月〜金: 8:00 - 20:00<br>
-                    土日祝: 10:00 - 18:00</p>
-                </div>
-                <div class="contact-form">
-                    <form>
-                        <input type="text" placeholder="お名前" required>
-                        <input type="email" placeholder="メールアドレス" required>
-                        <input type="text" placeholder="件名">
-                        <textarea placeholder="メッセージ" required></textarea>
-                        <button type="submit" class="btn">送信する</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <!-- フッター -->
+        </section>
+        <section id="contact">
+            <h2>お問い合わせ</h2>
+            <form>
+                <input type="text" placeholder="お名前">
+                <input type="email" placeholder="メールアドレス">
+                <textarea placeholder="メッセージ"></textarea>
+                <button type="submit">送信</button>
+            </form>
+        </section>
+    </main>
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-column">
-                    <h3>AROMA CAFE</h3>
-                    <p>心地よい空間と極上のコーヒーで、特別なひとときをお過ごしください。</p>
-                    <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="footer-column">
-                    <h3>メニュー</h3>
-                    <ul>
-                        <li><a href="#about">私たちについて</a></li>
-                        <li><a href="#menu">メニュー</a></li>
-                        <li><a href="#gallery">ギャラリー</a></li>
-                        <li><a href="#contact">お問い合わせ</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>営業時間</h3>
-                    <p>月〜金: 8:00 - 20:00<br>
-                    土日祝: 10:00 - 18:00</p>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2025 AROMA CAFE. All rights reserved.</p>
-            </div>
-        </div>
+        <p>&copy; 2025 AROMA CAFE</p>
     </footer>
-    
-    <!-- Font Awesome -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
 </body>
 </html>
